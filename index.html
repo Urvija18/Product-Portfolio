@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="head">
+      <nav class="h-nav">
+        <div class="left">Urvija Rai- Content Writer</div>
+        <div class="right v-class">
+          <ul>
+            <li><a href="#first_section">Home</a></li>
+            <li><a href="#second_section">About</a></li>
+            <li><a href="#third_section">Services</a></li>
+            <li><a href="#fourth_section">Contact</a></li>
+          </ul>
+        </div>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="first_section">
+        <div class="left_section">
+          <span class="two">Welcome, </span><br />this is
+          <span class="two">Urvija's Website. </span> <br /><span class="one"
+            >"Convert your thoughts on paper using attractive and relatable
+            images." </span
+          ><br />
+        </div>
+        <div class="right_section">
+          <img src="product-photo.jpg" alt="My photo" />
+        </div>
+      </section>
+      <hr />
+      <section id="second_section">
+        <h1>About</h1>
+        <div class="about">
+          <div class="sec">
+            <div class="left_sec">
+              <img src="my_photo.jpg" />
+            </div>
+            <div class="right_sec">
+              Urvija Rai, a <span class="col">Content writer</span> with a
+              passion for article writing and crafting engaging, informative
+              content, including technical and non-technical fields.<br />
+              <span class="col">Pleased to offer Urvija's help, </span>to bring
+              your ideas to life with words that captivate and inform.<br />
+              Some of my articles have been published in school/college
+              magazines, and for that I heve also been awarded some of the
+              times.<br />
+            </div>
+          </div>
+          <span class="col1">Have a look over some of Urvija's works:</span
+          ><br />
+          <h4>Competitive Programming</h4>
+          <span class="col1"
+            >Competitive Programming is a way of providing solutions to the
+            newly arising problems. It is a competition among many programmers
+            solving the same problem using programming language of their own
+            choice, in a limited time.<br
+          /></span>
+          To read more,
+          <a
+            href="Importance and Role of Debugging in Competitive Programming.pdf"
+            download="Competitive-Programming.pdf"
+            >Click here to download</a
+          >
+          <br />
+          <h4>Success</h4>
+          <span class="col1"
+            >Everyone in the world wants to be successful in his/her aim
+            whatsoever it maybe. The only reason for everyone to be running in
+            the race of success is that the success brings money and respect
+            along with it.<br
+          /></span>
+          To read more,
+          <a href="Success.pdf" download="success.pdf"
+            >Click here to download</a
+          >
+          <br />
+        </div>
+      </section>
+      <hr />
+      <section id="third_section">
+        <h1>Services</h1>
+        <div class="project">
+          <p>
+            The freelancing services provided includes content writing with
+            respect to various genres such as,<br />
+            <span class="col"
+              >Article Writing,<br />Story Writing,<br />Technical Content
+              Writing<br
+            /></span>
+          </p>
+        </div>
+        <div class="project">
+          <p>
+            To acknowledge any service, <span class="col">Contact Me </span>via
+            any Social Media platform.<br />
+            Send details of content writing which includes
+            <span class="cols"
+              >genre of content, pictorial representation, and any other
+              additional features</span
+            >
+            to be included.
+          </p>
+        </div>
+        <div class="project2">
+          <img src="pic1.png" />
+          <img src="pic2.jpeg" />
+        </div>
+        <div class="project1">
+          <p>
+            **Services provided 24x7**<br />
+            ***All services provided are online. No offline services.***
+          </p>
+        </div>
+      </section>
+      <hr />
+      <section id="fourth_section">
+        <h1>Contact Form</h1>
+        <p>
+          Enter your details below to get the latest information about my
+          articles and to get connected for acknowledging available services.
+        </p>
+        <form action="">
+          <h4>Name</h4>
+          <input type="text" placeholder="Enter your full name" />
+          <h4>Email</h4>
+          <input type="email" placeholder="Enter your email id" />
+          <br />
+          <button type="submit">Sign Up</button>
+        </form>
+      </section>
+      <section class="section_fifth">
+        <h3>Contact Me:</h3>
+        <div class="align">
+          <div class="mail">
+            <a href="mail to:raiurvija@gmail.com?subject=no subject"
+              ><img src="mail-logo.png"
+            /></a>
+          </div>
+          <div class="linkedin">
+            <a href="https://www.linkedin.com/in/urvija-rai-367647218"
+              ><img src="linkedin-logo.jpg"
+            /></a>
+          </div>
+          <div class="whatsapp">
+            <a href="https://wa.me/9118404665"
+              ><img src="whatsapp-logo.png"
+            /></a>
+          </div>
+          <div class="telegram">
+            <a href="https://t.me/Urvija18"><img src="Telegram-logo.png" /></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Competitive Programmer.",
+          "Web Developer.",
+          "Content Writer.",
+          "Web Designer.",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+    <script src="resp.js"></script>
+  </body>
+</html>

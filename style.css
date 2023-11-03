@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Poppins',sans-serif;
+}
+nav{
+    display:flex;
+    justify-content:space-around;
+    height: 80px;
+    align-items:center;
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    color:black;
+}
+header{
+    background-color: lightgray;
+    position:sticky;
+    top:0;
+}
+.left{
+    font-size: 23px;
+    color:black;
+}
+.right{
+    margin-right:23px;
+}
+#first_section{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 5vw auto ;
+    max-width: 80%;
+    gap:3vw;
+}
+.right_section img{
+    height: 23vw;
+    width: 45vw;
+}
+.left_section{
+    align-content: center;
+    font-size: 1.5rem;
+    color:black;
+}
+.two{
+    color:brown;
+    font-size: 2rem;
+}
+.one{
+color:blue;
+font-size:1.65rem;
+}
+nav ul li a{
+    text-decoration:none;
+    color: black;
+}
+nav ul li a :hover{
+    color: blueviolet;
+}
+#element{
+    color:chocolate;
+}
+#ele{
+    font-size:20px;
+    margin:2vw 2vw;
+}
+.cv{
+    color:blueviolet;
+    text-decoration: none;
+}
+#second_section{
+    max-width: 80%;
+    margin: 5vw auto;
+}
+#second_section h1{
+    font-size:30px;
+    font-weight: 600;
+    margin-bottom: 2vw;
+    color:brown
+}
+.about{
+    font-size:20px;
+    font-weight:200;
+    color:black;
+}
+.about h4{
+    color:blueviolet;
+}
+.col1{
+    color:black;
+}
+.sec{
+    display: flex;
+    gap: 5vw;
+    margin-bottom: 3vw;
+}
+.left_sec img{
+    width: 20vw;
+    height:20vw;
+}
+#third_section{
+    max-width: 80%;
+    margin: 5vw auto;
+}
+#third_section h1{
+    font-size:30px;
+    font-weight: 600;
+    margin-bottom: 2vw;
+    color:brown;
+}
+.project{
+    font-size:20px;
+    font-weight:200;
+    margin:1vw auto;
+}
+.project1 p{
+    color:black;
+    align-content: center;
+}
+.project p{
+    color:black;
+}
+.project2{
+    display:flex;
+    gap: 3vw;
+    margin:3vw auto;
+}
+.project2 img{
+    height:20vw;
+    width: 40vw;
+}
+.col{
+    color:blueviolet;
+}
+.cols{
+    color:blueviolet;
+}
+#fourth_section{
+    max-width: 80%;
+    margin: 5vw auto;
+}
+#fourth_section h1{
+    font-size:30px;
+    font-weight: 600;
+    margin-bottom: 2vw;
+    color:brown
+}
+#fourth_section p{
+    font-size:20px;
+    font-weight:200;
+    color:black;
+}
+form{
+    margin:1.5vw;
+}
+form h4{
+    color:chocolate;
+}
+form input{
+    background-color: gray;
+    height:25px;
+    width:200px;
+    padding:0 1.2vw;
+    text-color:black;
+}
+::placeholder{
+    color:black;
+    font-size:15px;
+}
+button{
+    margin:1vw 5vw;
+    height:40px;
+    width:70px;
+    background-color: mediumseagreen;
+    color:black;
+    font-size:15px;
+    font-weight: bold;
+}
+.section_fifth{
+    max-width: 80%;
+    margin: 5vw auto;
+}
+.align{
+    display:flex;
+    margin:2vw 2vw;
+}
+.mail img{
+    width:30px;
+    height:30px;
+    margin-left:2vw;
+    margin-right:3vw;
+}
+.linkedin img{
+    width:30px;
+    height:30px;
+    margin-left:2vw;
+    margin-right:3vw;
+}
+.whatsapp img{
+    width:33px;
+    height:32px;
+    margin-left:2vw;
+    margin-right:2.4vw;
+}
+.telegram img{
+    width:50px;
+    height:30px;
+    margin-left:2vw;
+    margin-right:3vw;
+}
+.burger{
+display:none;
+position:absolute;
+right:10px;
+top:30px;
+}
+.line{
+    width:30px;
+    background-color:black;
+    height:2px;
+    margin:3px 3px;
+}
+@media (max-width:600px){
+    #first_section{
+        display:block;
+    }
+    .left{
+        margin:10px 3px;
+        font-size: 18px;
+    }
+    nav{
+        height:180px;
+        align-items: start;
+        flex-direction:column;
+    }
+    nav ul{
+        flex-direction:column;
+    }
+    .burger{
+        display:block;
+    }
+    .h-nav{
+        height:65px;
+        flex-direction:row;
+    }
+    .v-class{
+        visibility: hidden;
+    }
+    .burger{
+        top:15px;
+    }
+    .first-section{
+        flex-direction:column;
+    }
+    .sec{
+        display: block;
+    }
+    .two{
+        font-size: 1.3rem;
+    }
+    .one{
+        font-size: 1.3rem;
+        margin-top: 3vw;
+    }
+    .right_section img{
+        height: 50vw;
+        width: 100%;
+        margin-top: 4vw;
+    }
+    .left_section{
+        max-width:100%;
+        align-content: center;
+        font-size: 1.2rem;
+    }
+    .left_sec img{
+        height:30vw;
+        width:30vw;
+        margin-bottom:2vw;
+    }
+    .about{
+        font-size:15px;
+    }
+    .project{
+       font-size: 15px; 
+    }
+    .project2{
+        display:block;
+    }
+    .project2 img{
+        width:100%;
+        height:40vw;
+    }
+    .project1{
+        font-size: 13px;
+    }
+    #fourth_section p{
+        font-size:15px;
+    }
+    button{
+        margin:3vw 15vw;
+    }
+}
